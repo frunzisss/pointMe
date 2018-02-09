@@ -31,6 +31,10 @@ export const currencies = [{
     value: 'DKK'
 },
 {
+    text: 'EUR',
+    value: 'EUR'
+},
+{
     text: 'GBP',
     value: 'GBP'
 },

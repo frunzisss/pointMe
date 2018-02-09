@@ -1,4 +1,3 @@
-import * as React from 'react';
 
 export class APIClient {
 
@@ -6,6 +5,11 @@ export class APIClient {
         return fetch(`https://api.fixer.io/latest?base=${base}`, {
             method: 'GET'
         });
+    };
+
+    public fetchCurrencies = async (base: string) => {
+        return  this.makeRequest(base);
+        //return result;
     }
 }
 
